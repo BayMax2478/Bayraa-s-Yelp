@@ -42,15 +42,15 @@ Directions / Map Navigation — Google Maps эсвэл MapBox integration
 
 3. Гол модулиуд
 
-| № 	| Модуль             		          | Үндсэн үүрэг             	                      	|
+| № 	| Модуль             	          	| Үндсэн үүрэг             	                      	|
 | - 	| ------------------------------	|--------------------------------------------------	|
 | 1 	| User Management                	| Бүртгэл, нэвтрэлт, эрхийн түвшин            	  	|
-| 2 	| Business Directory 	            | Бизнесийн бүртгэл, мэдээлэл хадгалах        			|
-| 3 	| Review & Rating    	            | Хэрэглэгчийн үнэлгээ, сэтгэгдэл             			|
-| 4 	| Map & Location                 	| Газрын зураг, GPS интеграци                 			|
-| 5 	| Search & Filter    		          | Хайлт, ангилал, дүүрэг, одоор шүүлт         			|
-| 6 	| Notification       		          | App болон имэйл мэдэгдэл                    			|
-| 7 	| Admin Dashboard                	| Хяналт, статистик, модерац                  			|
+| 2 	| Business Directory 	            | Бизнесийн бүртгэл, мэдээлэл хадгалах        		|
+| 3 	| Review & Rating    	            | Хэрэглэгчийн үнэлгээ, сэтгэгдэл             		|
+| 4 	| Map & Location                 	| Газрын зураг, GPS интеграци                 		|
+| 5 	| Search & Filter    		        | Хайлт, ангилал, дүүрэг, одоор шүүлт         		|
+| 6 	| Notification       		        | App болон имэйл мэдэгдэл                    		|
+| 7 	| Admin Dashboard                	| Хяналт, статистик, модерац                  		|
 | 8 	| API Layer          	          	| Мобайл ба вэбийн холболтын REST/GraphQL API 	    |
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -90,15 +90,15 @@ Mobile App (Android/iOS)
 
 6. Техникийн шаардлага
 
-| Төрөл                  			          | Шаардлага                                  			  |
-| ------------------------------------	|----------------------------------------------     |
-| Frontend	           		              | React (Web), React Native (Mobile)         			  |
-| Backend		 		                        | Node.js + Express / NestJS                 			  |
-| Database		 	                      	| PostgreSQL + PostGIS (байршлын өгөгдөлд)   	      |
-| Maps API				                      | Google Maps / Mapbox                       			  |
-| Authentication		                   	| JWT + OAuth (Google/Facebook)              		    |
-| Cloud / Deployment	 	                | AWS / Render / Vercel                      				|
-| Security		           		            | HTTPS, bcrypt password hashing, audit logs 		    |
+| Төрөл                  			        | Шаардлага                                			|
+| ------------------------------------		|----------------------------------------------     |
+| Frontend	           		              	| React (Web), React Native (Mobile)         		|
+| Backend		 		                    | Node.js + Express / NestJS                 		|
+| Database		 	                      	| PostgreSQL + PostGIS (байршлын өгөгдөлд)   	    |
+| Maps API				                    | Google Maps / Mapbox                       		|
+| Authentication		                   	| JWT + OAuth (Google/Facebook)              		|
+| Cloud / Deployment	 	                | AWS / Render / Vercel                      		|
+| Security		           		            | HTTPS, bcrypt password hashing, audit logs 		|
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -123,13 +123,13 @@ US-04: Админ буруу мэдээлэл устгаж чадна.
 
 9. Этапчилсан хөгжүүлэлт
 
-| Этап 	      | Үндсэн ажил                              				| Хугацаа 	        |
+| Этап 	      	| Үндсэн ажил                              			| Хугацаа 	        |
 | -----------	| ----------------------------------------------	| -----------------	|
 | 1    		    | User auth, business listing, basic CRUD  		    | 2–4 долоо хоног 	|
-| 2    		    | Review & Rating, Search, Map integration 	      | 3 долоо хоног   	|
+| 2    		    | Review & Rating, Search, Map integration 	      	| 3 долоо хоног   	|
 | 3    		    | Business verification, Favorite, Report  		    | 2 долоо хоног   	|
 | 4    		    | Admin panel, analytics, notification     		    | 3 долоо хоног   	|
-| 5    		    | App store / Play store release           			  | 2 долоо хоног   	|
+| 5    		    | App store / Play store release           			| 2 долоо хоног   	|
 
 ---------------------------------------------------------------------------------------------------------------------------
 
